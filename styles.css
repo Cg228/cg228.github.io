@@ -7,10 +7,25 @@ body {
     margin: 0;
     padding: 0;
 }
+p{
+  font-family: Arial, sans-serif;
+    color: #f9f7f3e4;
+    text-align: center;
+    margin: 50px;
+    font-size: 14pt;
+}
 h1 {
     font-size: 4em;
     color: #2b9d32;
+    
 }
+
+h3{
+  font-family: Arial, sans-serif;
+    color: #f9f7f3e4;
+    margin: 50px;
+}
+
 .content {
     margin-top: 50px;
 }
@@ -20,16 +35,21 @@ h1 {
     gap: 30px;
     margin-top: 30px;
 }
-.image-placeholder {
-    width: 200px;
-    height: 200px;
-    background-color: #ddd;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #555;
+.image-placeholder img {
+  max-width: 100%; /* Limit the image to the container's width */
+  height: auto; /* Maintain the aspect ratio */
 }
+
+.image-placeholder1 img {
+  max-width: 95%; /* Limit the image to the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.image-placeholder3 img {
+  max-width: 80%; /* Limit the image to the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 .gif-container {
     margin-top: 30px;
 }
