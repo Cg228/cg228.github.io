@@ -62,6 +62,12 @@ h3{
     width: 300px;
     border-radius: 10px;
 }
+.gif-container1 img {
+  width: 30%; /* The GIFs will take up 30% of the screen width */
+  height: auto;
+  border-radius: 10px;
+}
+
 footer {
     margin-top: 50px;
     font-size: 1.2em;
