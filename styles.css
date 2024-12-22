@@ -96,7 +96,7 @@ footer {
 .timeline-item {
   position: relative;
   padding-left: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   opacity: 0; /* Hidden by default */
   visibility: hidden; 
   transition: opacity 0.5s ease-in-out;

@@ -3,10 +3,12 @@
 // Function to check if an element is in the viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
+    const buffer = 150; 
+
     return (
-        rect.top >= 0 &&
+        rect.top + buffer <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.bottom - buffer >= 0 &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
