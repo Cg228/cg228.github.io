@@ -183,3 +183,28 @@ footer {
   }
 }
 
+.navbar ul{
+  list-style-type: none;
+  background-color: #252751e4; 
+  padding: 0px; 
+  margin: Opx;
+  overflow: hidden;
+}
+
+.navbar a{
+  color:
+  white;
+  text-decoration: none;
+  padding: 15px; 
+  display: block; 
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: #313367e4;
+
+}
+
+.navbar li{
+  float:left;
+}
